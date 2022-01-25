@@ -1,6 +1,8 @@
+/*eslint-disable no-unused-vars */
 import { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
+
 
 function App() {
 	const [gifs, setGifs] = useState([]);
@@ -24,7 +26,6 @@ function App() {
 				<img src={logo} className='App-logo' alt='logo' />
 				<p>
 					Edit <code>src/App.js</code> and save to reload.
-          { gifs }
 				</p>
 				<a
 					className='App-link'
